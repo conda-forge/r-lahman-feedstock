@@ -1,4 +1,4 @@
-{% set version = "8.0-0" %}
+{% set version = "8.0-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Lahman_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Lahman/Lahman_{{ version }}.tar.gz
-  sha256: d52df8b6dce6f3b583cc67e326198b59bc2c8fc3116ca0b360337d936e8b44c1
+  sha256: 6a72820bc4bfed0b50ac9d76d213e3f0f07c7d2805898cdd4a779f53e5a9c797
 
 build:
   merge_build_host: true  # [win]
