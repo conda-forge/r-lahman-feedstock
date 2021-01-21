@@ -37,10 +37,11 @@ test:
 
 about:
   home: http://lahman.r-forge.r-project.org/
-  license: GPL
+  license: GPL-2.0-or-later
   summary: Provides the tables from the 'Sean Lahman Baseball Database' as a set of R data.frames. It uses the data on pitching, hitting and fielding performance and other tables from 1871 through 2018, as recorded in the 2019 version of the database. Documentation examples show how many baseball questions can be investigated.
   license_family: GPL
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
