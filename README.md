@@ -3,13 +3,11 @@ About r-lahman
 
 Home: http://lahman.r-forge.r-project.org/
 
-Package license: GPL
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lahman-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides the tables from the 'Sean Lahman Baseball Database' as a set of R data.frames. It uses the data on pitching, hitting and fielding performance and other tables from 1871 through 2018, as recorded in the 2019 version of the database. Documentation examples show how many baseball questions can be investigated.
-
-
 
 Current build status
 ====================
