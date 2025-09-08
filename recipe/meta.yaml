@@ -1,4 +1,4 @@
-{% set version = "12.0-0" %}
+{% set version = "13.0-0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Lahman_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Lahman/Lahman_{{ version }}.tar.gz
-  sha256: 8b9e5832dab5cd0ad42730727a735dd8034c1203711d349ba81cda390c56486d
+  sha256: 7df80175c5b3e27d62ff70960d881360c82ec7dae3d89417b450ce6d26512682
 
 build:
   number: 0
